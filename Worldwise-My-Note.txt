@@ -1,0 +1,32 @@
+PROJECT TOPICS
+
+VITE
+SPA
+React Router
+  npm i react-router-dom@6
+
+CSS MODULE
+   we do not use element selector because it will apply to entire application
+   so we only use class selector.
+
+
+ press r to restart the server
+  press u to show server url   
+  press o to open in browser   
+  press c to clear console     
+  press q to quit
+
+Install fake API
+npm i jason-server
+
+Dynamic route with URL parameter
+3 steps
+1) create a route (using <route/> tag)
+2) Link that route( using <Link> tag)
+3) read the id (using useParam() hooks)
+
+useSearchParams() // read and modify the query string in the URL
+useNavigate()  // Navigating programmaticallyy in the applicaton
+<Navigate replace to=""/> // It is like redirect to certain path in a application
+
+
